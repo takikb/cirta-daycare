@@ -1,0 +1,55 @@
+:root {
+    --light-blue: #2E8DCC;
+}
+.hero {
+    height: 100vh;
+    background-color: #E8E5F2;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    margin-top: 18%;
+}
+.content h3 {
+    color: var(--light-blue);
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.content .titles {
+    margin-bottom: 50px;
+    font-size: 3.2em;
+}
+.content p {
+    min-width: 110%;
+    color: var(--titles-blue);
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+}
+.inspired .new{
+    color: var(--light-blue) !important;
+}
+.inspired .wrapper {
+    padding-top: 30px;
+}
+.inspired .main.sec .right {
+    gap: 100px;
+}
+.inspired .right .img {
+    transform: scale(1.1) translateX(100px);
+
+}
+.inspired .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--titles-blue);
+    font-size: 1.1em;
+    font-weight: 700;
+    border-bottom: 1px solid var(--titles-blue);
+}
